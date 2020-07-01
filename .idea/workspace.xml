@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6518a13c-f1e8-43e6-a112-8d34ffb74a72" name="Default Changelist" comment=".idea" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Tiago Lima &lt;tiaguinho.alima@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1e4MNh8CD3rknyLUKgdWgxpr9ui" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Python.getdata">
+    <configuration name="getdata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="v2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\tiago\PycharmProjects\comparador-precos\getdata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="principal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="v2.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/principal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.getdata" />
+        <item itemvalue="Python.principal" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6518a13c-f1e8-43e6-a112-8d34ffb74a72" name="Default Changelist" comment="" />
+      <created>1593576373356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593576373356</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Módulo responsável pela atualização e pelo scrapp dos dados na internet">
+      <created>1593624981221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593624981221</updated>
+    </task>
+    <task id="LOCAL-00002" summary="arquivo texto com data e hora da última atualização de dados">
+      <created>1593625044992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593625044992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="arquivo json com os dados raspados">
+      <created>1593625079313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593625079313</updated>
+    </task>
+    <task id="LOCAL-00004" summary="código principal, ainda em construção">
+      <created>1593625120821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593625120821</updated>
+    </task>
+    <task id="LOCAL-00005" summary="venv">
+      <created>1593625167116</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593625167116</updated>
+    </task>
+    <task id="LOCAL-00006" summary="venv">
+      <created>1593625588519</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593625588519</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".idea">
+      <created>1593625612055</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593625612055</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Módulo responsável pela atualização e pelo scrapp dos dados na internet" />
+    <MESSAGE value="arquivo texto com data e hora da última atualização de dados" />
+    <MESSAGE value="arquivo json com os dados raspados" />
+    <MESSAGE value="código principal, ainda em construção" />
+    <MESSAGE value="venv" />
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593589671408">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1593589671408" />
+    <state x="421" y="102" key="FileChooserDialogImpl" timestamp="1593626538160">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="102" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1593626538160" />
+    <state x="520" y="258" key="Github.ShareDialog" timestamp="1593576908835">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="520" y="258" key="Github.ShareDialog/0.0.1280.720@0.0.1280.720" timestamp="1593576908835" />
+    <state width="1253" height="661" key="GridCell.Tab.0.bottom" timestamp="1593625377267">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1253" height="661" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593625377267" />
+    <state width="1253" height="661" key="GridCell.Tab.0.center" timestamp="1593625377267">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1253" height="661" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1593625377267" />
+    <state width="1253" height="661" key="GridCell.Tab.0.left" timestamp="1593625377267">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1253" height="661" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1593625377267" />
+    <state width="1253" height="661" key="GridCell.Tab.0.right" timestamp="1593625377267">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1253" height="661" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1593625377267" />
+    <state width="1259" height="307" key="GridCell.Tab.1.bottom" timestamp="1593589744548">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="307" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593589744548" />
+    <state width="1259" height="307" key="GridCell.Tab.1.center" timestamp="1593589744548">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="307" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1593589744548" />
+    <state width="1259" height="307" key="GridCell.Tab.1.left" timestamp="1593589744548">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="307" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1593589744548" />
+    <state width="1259" height="307" key="GridCell.Tab.1.right" timestamp="1593589744548">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="307" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1593589744548" />
+    <state x="142" y="5" key="SettingsEditor" timestamp="1593626630946">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1593626630946" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1593626585116">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1593626585116" />
+    <state x="303" y="41" key="search.everywhere.popup" timestamp="1593624804454">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1593624804454" />
+  </component>
+</project>
