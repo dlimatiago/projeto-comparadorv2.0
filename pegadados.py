@@ -1,5 +1,6 @@
 import requests as r
 from bs4 import BeautifulSoup as BS
+from datetime import datetime as dt
 
 
 def getstatus():
@@ -50,27 +51,35 @@ def getcoins():  # Pegando o status da página, consegue acessar, se disponível
             return f'Não foi possível: Code {getstatus()}'
 
 
-def updates():
-    from datetime import datetime
-
-    update = datetime.now()  # Pegando a data e hora atual do sistema
+def updates(gettime=False):
+    """
+    ~~ Função para pegar o horário do sistema e realizar atualização de log
+    :param gettime: Se False, a função executa a atualização de log, se verdadeiro, pega
+    o horário e data do sistema
+    :return: Retorna ou o horário e data do sistema ou True/Fase, depende de como chamada.
+    """
+    update = dt.now()  # Pegando a data e hora atual do sistema
     update = update.strftime('%d/%m - %H:%M:%S')  # Formatando no padrão DD/MM - HH:MM:SS
 
-    try:
-        if not check():
-            arquivo = open('logs.txt', 'w')
+    if gettime is False:
+        # Executa somente se a função for chamada pra checar atualização
+        try:
+            if not check() or delta(update) > 12:  # Se full for falso(doc vazio) ou tempo de att maior q 12h
+                arquivo = open('logs.txt', 'w')
+            else:
+                arquivo = open('logs.txt')
+        except BaseException:
+            print(f'Not possible ~~Updates~~: {BaseException.__name__}')
         else:
-            arquivo = open('logs.txt')
-    except BaseException:
-        print(f'Not possible ~~Updates~~: {BaseException.__name__}')
-    else:
-        if check() and delta(update) > 12 or not check():
-            arquivo.write(update)
-            up = True
-        else:
-            up = False
-        arquivo.close()
-        return up
+            if check() and delta(update) > 12 or not check():
+                arquivo.write(update)
+                up = True
+            else:
+                up = False
+            arquivo.close()
+            return up
+    # Retona o horário do sistema, caso seja chamada para isso.
+    return update
 
 
 def check():  # Checa se existe um arquivo de log
@@ -86,19 +95,18 @@ def check():  # Checa se existe um arquivo de log
         return False
     else:
         last_update = arquivo.readline()
-        verif = True if last_update != '' else False
+        full = True if last_update != '' else False
         arquivo.close()
-        return verif
+        return full
 
 
 def delta(horario):
     """
-    Essa função informa a diferença em horas entre duas datas. Uma, passada por parâmetro
+    ~~ Essa função informa a diferença em horas entre duas datas. Uma, passada por parâmetro
     e a outra via arquivo.
     :param horario: Parâmetro passado em dd/mm - HH:MM:SS
     :return: Retorna a diferença entre HH(parâmetro) e HH(arquivo)
     """
-    from datetime import datetime as dt
     global prev_up, last_up
 
     new = horario
