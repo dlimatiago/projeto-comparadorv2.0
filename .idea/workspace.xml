@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6518a13c-f1e8-43e6-a112-8d34ffb74a72" name="Default Changelist" comment=".idea" />
+    <list default="true" id="6518a13c-f1e8-43e6-a112-8d34ffb74a72" name="Default Changelist" comment="Venv">
+      <change afterPath="$PROJECT_DIR$/moedas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/pegadados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,9 +52,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.getdata">
-    <configuration name="getdata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="v2.0" />
+  <component name="RunManager" selected="Python.principal">
+    <configuration name="getdata " type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="comparador-precos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -59,7 +65,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\tiago\PycharmProjects\comparador-precos\getdata.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\tiago\PycharmProjects\comparador-precos\pegadados.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="moedas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="comparador-precos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moedas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,15 +96,15 @@
       <method v="2" />
     </configuration>
     <configuration name="principal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="v2.0" />
+      <module name="comparador-precos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\tiago\PycharmProjects\comparador-precos\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/principal.py" />
@@ -89,10 +116,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.getdata " />
+      <item itemvalue="Python.principal" />
+      <item itemvalue="Python.moedas" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.getdata" />
         <item itemvalue="Python.principal" />
+        <item itemvalue="Python.moedas" />
+        <item itemvalue="Python.getdata " />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +189,42 @@
       <option name="project" value="LOCAL" />
       <updated>1593625612055</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Módulo responsável pela atualização e raspagem de dados na web">
+      <created>1593626740016</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593626740016</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Arquivo de texto para controle de atualização de dados">
+      <created>1593626767678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593626767678</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Código principal. Ainda em desenvolvimento">
+      <created>1593626796699</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593626796699</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Dados raspados da internet armazenados em json">
+      <created>1593626821916</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593626821916</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Venv">
+      <created>1593626926076</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593626926076</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,13 +249,26 @@
     <MESSAGE value="código principal, ainda em construção" />
     <MESSAGE value="venv" />
     <MESSAGE value=".idea" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+    <MESSAGE value="Módulo responsável pela atualização e raspagem de dados na web" />
+    <MESSAGE value="Arquivo de texto para controle de atualização de dados" />
+    <MESSAGE value="Código principal. Ainda em desenvolvimento" />
+    <MESSAGE value="Dados raspados da internet armazenados em json" />
+    <MESSAGE value="Venv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Venv" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593628887319">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1593628887319" />
     <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593589671408">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1593589671408" />
+    <state x="351" y="0" key="#principal" timestamp="1593628808678">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="351" y="0" key="#principal/0.0.1280.720@0.0.1280.720" timestamp="1593628808678" />
     <state x="421" y="102" key="FileChooserDialogImpl" timestamp="1593626538160">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -196,46 +277,46 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="520" y="258" key="Github.ShareDialog/0.0.1280.720@0.0.1280.720" timestamp="1593576908835" />
-    <state width="1253" height="661" key="GridCell.Tab.0.bottom" timestamp="1593625377267">
+    <state width="1281" height="524" key="GridCell.Tab.0.bottom" timestamp="1593631507086">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1253" height="661" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593625377267" />
-    <state width="1253" height="661" key="GridCell.Tab.0.center" timestamp="1593625377267">
+    <state width="1281" height="524" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593631507086" />
+    <state width="1281" height="524" key="GridCell.Tab.0.center" timestamp="1593631507086">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1253" height="661" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1593625377267" />
-    <state width="1253" height="661" key="GridCell.Tab.0.left" timestamp="1593625377267">
+    <state width="1281" height="524" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1593631507086" />
+    <state width="1281" height="524" key="GridCell.Tab.0.left" timestamp="1593631507086">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1253" height="661" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1593625377267" />
-    <state width="1253" height="661" key="GridCell.Tab.0.right" timestamp="1593625377267">
+    <state width="1281" height="524" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1593631507086" />
+    <state width="1281" height="524" key="GridCell.Tab.0.right" timestamp="1593631507086">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1253" height="661" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1593625377267" />
-    <state width="1259" height="307" key="GridCell.Tab.1.bottom" timestamp="1593589744548">
+    <state width="1281" height="524" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1593631507086" />
+    <state width="1259" height="307" key="GridCell.Tab.1.bottom" timestamp="1593631396106">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="307" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593589744548" />
-    <state width="1259" height="307" key="GridCell.Tab.1.center" timestamp="1593589744548">
+    <state width="1259" height="307" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593631396106" />
+    <state width="1259" height="307" key="GridCell.Tab.1.center" timestamp="1593631396106">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="307" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1593589744548" />
-    <state width="1259" height="307" key="GridCell.Tab.1.left" timestamp="1593589744548">
+    <state width="1259" height="307" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1593631396106" />
+    <state width="1259" height="307" key="GridCell.Tab.1.left" timestamp="1593631396106">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="307" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1593589744548" />
-    <state width="1259" height="307" key="GridCell.Tab.1.right" timestamp="1593589744548">
+    <state width="1259" height="307" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1593631396106" />
+    <state width="1259" height="307" key="GridCell.Tab.1.right" timestamp="1593631396106">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="307" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1593589744548" />
+    <state width="1259" height="307" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1593631396106" />
     <state x="142" y="5" key="SettingsEditor" timestamp="1593626630946">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1593626630946" />
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1593626585116">
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1593626955580">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1593626585116" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1593626955580" />
     <state x="303" y="41" key="search.everywhere.popup" timestamp="1593624804454">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
