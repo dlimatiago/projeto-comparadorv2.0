@@ -1,0 +1,14 @@
+[
+    {
+        "cotacao": "R$ 5,80",
+        "bandeira": "/static/images/flag_brasil.png"
+    },
+    {
+        "cotacao": "G$ 6750",
+        "bandeira": "/static/images/flag_paraguai.png"
+    },
+    {
+        "cotacao": "$ 130,00",
+        "bandeira": "/static/images/flag_argentina.png"
+    }
+]
