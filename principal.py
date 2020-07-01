@@ -1,0 +1,2 @@
+import getdata as imp
+
